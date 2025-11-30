@@ -1,18 +1,18 @@
 # ZariMate 개발 태스크 (Tasks)
 
 ## Phase 1: 프로젝트 세팅 (1-2일)
-- [ ] Android Studio 프로젝트 생성 (Empty Compose Activity)
-- [ ] `libs.versions.toml` 설정 및 의존성 추가
-    - [ ] Hilt (DI)
-    - [ ] Retrofit / OkHttp (Network)
-    - [ ] Room (Database)
-    - [ ] Navigation Compose
-    - [ ] Coil (Image Loading)
-- [ ] 패키지 구조 설계 (`data`, `domain`, `presentation`, `di`)
-- [ ] `secrets.properties` 설정 (API Key 보안)
-    - [ ] API Key: `612a6726be1665d406462a966b4652bf2a499472ebfb194c6890aa9ff12e7165`
-- [ ] Application 클래스 및 Hilt 설정 (`@HiltAndroidApp`)
-- [ ] Theme 및 Color Palette 설정 (다크모드 고려)
+- [x] Android Studio 프로젝트 생성 (Empty Compose Activity)
+- [x] `libs.versions.toml` 설정 및 의존성 추가
+    - [x] Hilt (DI)
+    - [x] Retrofit / OkHttp (Network)
+    - [x] Room (Database)
+    - [x] Navigation Compose
+    - [x] Coil (Image Loading)
+- [x] 패키지 구조 설계 (`data`, `domain`, `presentation`, `di`)
+- [x] `secrets.properties` 설정 (API Key 보안)
+    - [x] API Key: `612a6726be1665d406462a966b4652bf2a499472ebfb194c6890aa9ff12e7165`
+- [x] Application 클래스 및 Hilt 설정 (`@HiltAndroidApp`)
+- [x] Theme 및 Color Palette 설정 (다크모드 고려)
 
 ## Phase 2: API 연동 및 데이터 레이어 (2-3일)
 - [ ] API 응답 모델 (DTO) 정의 (Kotlin Data Class)
