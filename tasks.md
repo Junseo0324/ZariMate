@@ -15,15 +15,15 @@
 - [x] Theme 및 Color Palette 설정 (다크모드 고려)
 
 ## Phase 2: API 연동 및 데이터 레이어 (2-3일)
-- [ ] API 응답 모델 (DTO) 정의 (Kotlin Data Class)
-    - [ ] 도서관 목록 응답
-    - [ ] 좌석 정보 응답
-- [ ] Retrofit Service Interface 정의
-- [ ] Repository Interface 및 Implementation 구현
-- [ ] Network Module (Hilt) 구현
-    - [ ] OkHttpClient (Logging Interceptor, Timeout)
-    - [ ] Retrofit Builder
-- [ ] API 호출 테스트 (Unit Test 또는 UI 테스트)
+- [x] API 응답 모델 (DTO) 정의 (Kotlin Data Class)
+    - [x] 도서관 목록 응답
+    - [x] 좌석 정보 응답
+- [x] Retrofit Service Interface 정의
+- [x] Repository Interface 및 Implementation 구현
+- [x] Network Module (Hilt) 구현
+    - [x] OkHttpClient (Logging Interceptor, Timeout)
+    - [x] Retrofit Builder
+- [x] API 호출 테스트 (Unit Test 또는 UI 테스트)
 
 ## Phase 3: 핵심 UI 구현 (3-4일)
 - [ ] Navigation Graph 설정 (Home, Detail, Favorite, Settings)
